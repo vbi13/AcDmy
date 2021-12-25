@@ -1,0 +1,35 @@
+body{
+    background-color:yellow;
+}
+.main-wrapper{
+    background-color:brown;
+    width: 800px;
+    height: 600px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 29px;
+    margin: auto;
+    text-align: center;
+}
+.priorytet{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.wysoki{
+    background-color: red;
+}
+.sredni{
+    background-color: orange;
+}
+.niski{
+    background-color: green;
+}
+#wysoki{
+    background-color: blue;
+}
+li{
+    text-align: left;
+}
