@@ -1,0 +1,32 @@
+
+#the-best-box{
+background-color: sienna;
+}
+.box.box-global{
+    background-color: salmon;
+}
+
+div{
+    background-color: blue;
+    color: chartreuse;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.box{
+    background-color: black;
+}
+.box-global{
+    background-color: green;
+}
+.box-ultimate{
+    background-color: rgb(1, 0, 14);
+}
+.very-big-box{
+    background-color: white;
+    border:sienna solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+
+}
