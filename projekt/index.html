@@ -6,14 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <title>Mój pierwszy projekt HTML & CSS</title>
   </head>
   <body>
     <div class="wrapper">
-      <img class="logo" src="/AcDm/projekt/images/logo.png" alt="logo" />
+     <!-- <img class="logo" src="/AcDm/projekt/images/logo.png" alt="logo" /> -->
+     <div class="logo">
+     <h1>
+       <span class="firsthalf">Trenujemy<span class="secondhalf">Online</span>
+      </h1>
+      </div>
       <div class="login-section">
         <div class="login-form">
+          <div class="heading">
           <h1>Zarejestruj się jako trener</h1>
+          </div>
               <a href=""><button class="registration"><img class="logo-holder pull-left" src="/AcDm/projekt/images/facebook.png" />Rejestracja przez Facebook</button></a>
           <a href=""><button class="registration"><img class="logo-holder pull-left" src="/AcDm/projekt/images/instagram.png" />Rejestracja przez Instagram</button></a>
           <div class="text-divider">
@@ -21,7 +29,7 @@
             <p><span>Lub za pomocą maila</span></p>
             <div class="divider"></div>
           </div>
-          <div>
+          <div class="personal-data">
             <input id="first-name" type="text" placeholder="First Name" />
             <label for="first-name">First Name</label>
             <input id="last-name" type="text" placeholder="Last Name" />
