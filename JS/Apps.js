@@ -1,17 +1,17 @@
 //1
 
-const name = 'Jan'
-const age = 22
+const name1 = 'Jan'
+const age1 = 22
 let isOpen = true
 const stringNumber = 100
 
 //2
 
 console.log(10%4);
-const name = 'Tomasz'
-const age = 33
+const name2 = 'Tomasz'
+const age2 = 33
 
-console.log(`${name} ma ${age} lata`);
+console.log(`${name2} ma ${age2} lata`);
 
 const firstName = 'Jan'
 const lastName = 'Kowalski'
@@ -37,7 +37,7 @@ console.log(arrayOfAll[1]);
 
 const names = ['Adrian', 'Maciek', 'Fabian']
 console.log(names.length);
-***
+//***
 
 const arrayofData =['person1','person2','person3']
 const person1 = {
